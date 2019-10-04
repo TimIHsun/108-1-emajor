@@ -1,5 +1,5 @@
 ---
-title: "首頁"
+title: "競賽說明"
 ---
 
 Hello, Website!

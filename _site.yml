@@ -2,22 +2,21 @@ name: "my-website"
 navbar:
   title: "2020 北大黑客松"
   type: inverse
-  left:
-    - text: "首頁"
+  right:
+    - text: "競賽說明"
       icon: fa-home
       href: index.html
-    - text: "關於"
+    - text: "報名資訊"
       icon: fa-info
       href: about.html
-    - text: "123"  
+    - text: "參考作品"  
       icon: ion-social-twitter
       menu:
         - text: "Heading 1"
         - text: "Page A"
-          href: index.html
+          href: reference.html
         - text: "---------"
         - text: "Page B"
-  right:
     - icon: fa-question fa-lg
       href: https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html#common-elements
           
