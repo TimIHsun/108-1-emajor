@@ -7,13 +7,8 @@ title: "競賽說明"
 
 <center><font size="10" color="brown" font face="Nanum Pen Script">Hello, There!</font></center>
 
-<hr>
-
-For more information about simple R Markdown websites, please read the documentation at https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html.
-
-Please also note that simple R Markdown sites are _not_ based on **blogdown**. They are probably good for websites
-with only a few Rmd documents. For larger-scale and more sophisticated websites (such as blogs), you may want to use **blogdown** instead: https://github.com/rstudio/blogdown.
-
+___
+<font size="5">黑客松是黑客+馬拉松（HACK + MARATHON）的組合字，大致上就是幾個人聚在一起以馬拉松的方式進行一段長時間(24小時)的程式設計活動。以軟體、手機應用程式、虛擬實境和雲端服務等技術整合，開發具潛在目標市場包含醫療、環境、教育、娛樂和智慧生活等的資訊科技創新活動。���立臺北大學經濟系今年度首度辦理「第一屆國立臺北大學資料科學應用創新黑客松競賽」活動，期待參賽者能以「技術交流、團隊合作」的精神，在競賽中與實務接軌，發揮無窮的想像力，為新科技帶來不一樣的驚奇！</font>
 ***
 
 ___
