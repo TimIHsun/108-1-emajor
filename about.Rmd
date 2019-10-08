@@ -1,5 +1,3 @@
----
-title: "報名資訊"
----
-
-More about this website.
+<br>
+<center><font size="10" >報名資訊 </font></p></center>
+___

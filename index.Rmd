@@ -1,8 +1,11 @@
 ---
 title: "競賽說明"
 ---
+<img src="https://www.opservices.com.br/wp-content/uploads/2017/01/Hackathon.png">
 
-<center><font size="10" color="brown" font face="Nanum Pen Script">Hello, Website!</font></center>
+
+
+<center><font size="10" color="brown" font face="Nanum Pen Script">Hello, There!</font></center>
 
 <hr>
 
@@ -22,6 +25,7 @@ ___
 </center>
 
 ___
+
 
 <div class="footer" >
  <center><p>Copyright &copy; 2020   <a href="https://www.facebook.com/Emajortaiwanforu/" style="color:red">E.Major Taiwan </a>. All rights reserved.</p></center>
