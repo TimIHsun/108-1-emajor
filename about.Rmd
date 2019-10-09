@@ -2,7 +2,11 @@
 title: 報名資訊
 ---
 <br>
-<center><font size="10" >報名資訊 </font></p></center>
+<center>
+  <i class="fas fa-equals fa-1x"></i>
+  <font size="6" >報名資訊 </font>
+  <i class="fas fa-equals fa-1x"></i>
+</center>
 ___
 
 > 報名資格
@@ -21,7 +25,14 @@ ___
   108年1月7日至2月24日。 
 
 ___
+<br>
+<center>
+  <i class="fas fa-equals fa-1x"></i>
+  <font size="6" >報名流程 </font>
+  <i class="fas fa-equals fa-1x"></i>
+</center>
 
+___
 
 <center>
   <div style="background-color: #FDFAEE ;width:350px;padding:10px;border:3px red dashed;margin:30px;">
@@ -53,5 +64,24 @@ ___
   </div>
 </center>
 ___    
-    
+
+<br>
+<center>
+  <i class="fas fa-equals fa-1x"></i>
+  <font size="6" >報名方式 </font>
+  <i class="fas fa-equals fa-1x"></i>
+</center>
   
+___
+<center>
+報名統一採線上申報方式，欲參賽之隊伍請至線上表單登錄報名訊息。 <br>
+(建議使用Chrome瀏覽器，並先login您的gmail帳號。）
+</center>
+<br>
+<center>
+<button type="button" style="width:240px;height:80px;" onclick="location.href='https://econhackathon.ntpu.edu.tw/timeline.html'">>
+<img src="https://tw.promo.yahoo.com/2017/store/0310/images/button.png" >
+</button>
+</center>
+
+___

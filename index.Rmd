@@ -1,9 +1,9 @@
 ---
-title: 競賽說明
+title: 北大黑客松
 ---
 
 <br>
-<center><font size="10" >競賽說明 </font></p></center>
+<center><font size="10" >北大黑客松 </font></center>
 ___
 
 <img src="https://www.opservices.com.br/wp-content/uploads/2017/01/Hackathon.png">
@@ -13,16 +13,9 @@ ___
 <center><font size="10" color="brown" font face="Nanum Pen Script">Hello, There!</font></center>
 
 ___
-<font size="5">黑客松是黑客+馬拉松（HACK + MARATHON）的組合字，大致上就是幾個人聚在一起以馬拉松的方式進行一段長時間(24小時)的程式設計活動。以軟體、手機應用程式、虛擬實境和雲端服務等技術整合，開發具潛在目標市場包含醫療、環境、教育、娛樂和智慧生活等的資訊科技創新活動。���立臺北大學經濟系今年度首度辦理「第一屆國立臺北大學資料科學應用創新黑客松競賽」活動，期待參賽者能以「技術交流、團隊合作」的精神，在競賽中與實務接軌，發揮無窮的想像力，為新科技帶來不一樣的驚奇！</font>
-
 
 ___
 
-<center>
-  <a href="https://www.facebook.com/2329576390451183/videos/217836372496098/" target="_blank">
-  <img src="https://scontent.ftpe7-3.fna.fbcdn.net/v/t1.0-9/48382657_2329578953784260_6631765066523869184_n.jpg?_nc_cat=103&_nc_oc=AQmul3NITVBWp26CjzxoK0B4EGtKNG97IDJnxCgv5ZJSdjFUiKmqNKrGv9cA7qXONRQ&_nc_ht=scontent.ftpe7-3.fna&oh=3e0c7a246b33c8eb6292d5ec077025d0&oe=5E254B68" alt="圖片 ALT 文字放在這裡" width="50%"/>
-  </a>
-</center>
 
 ___
 
