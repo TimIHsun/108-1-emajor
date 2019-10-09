@@ -1,3 +1,6 @@
+---
+title: 徵詢隊友
+---
 <br>
 <center><font size="10" >徵詢隊友 </font></p></center>
 ___
