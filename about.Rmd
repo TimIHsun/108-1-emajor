@@ -1,6 +1,7 @@
 ---
-title: 報名資訊
+title: "報名資訊"
 ---
+
 <br>
 <center>
   <i class="fas fa-equals fa-1x"></i>

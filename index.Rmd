@@ -23,13 +23,9 @@ ___
 
 <center>
 <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Ftimihsun.github.io%2F108-1-emajor%2F&layout=button&size=small&width=52&height=20&appId" width="52" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-
-<div class="line-it-button" data-lang="en" data-type="share-a" data-ver="3" data-url="https://timihsun.github.io/108-1-emajor/index.html" data-color="default" data-size="large" data-count="false" style="display: none;"></div>
- <script src="https://d.line-scdn.net/r/web/social-plugin/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
- 
 </center>
 
-<div class="line-it-button" data-lang="en" data-type="share-a" data-ver="3" data-url="https://timihsun.github.io/108-1-emajor/index.html" data-color="default" data-size="large" data-count="false" style="display: none;"></div>
+<div class="line-it-button" data-lang="en" data-type="share-a" data-ver="3" data-url="https://timihsun.github.io/108-1-emajor/index.html" data-color="default" data-size="small" data-count="false" style="display: none;"></div>
 
- <script src="https://d.line-scdn.net/r/web/social-plugin/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
+<script src="https://d.line-scdn.net/r/web/social-plugin/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
 ___
