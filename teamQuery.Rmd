@@ -4,3 +4,6 @@ title: 徵詢隊友
 <br>
 <center><font size="10" >徵詢隊友 </font></p></center>
 ___
+
+<div class="line-it-button" data-lang="en" data-type="share-a" data-ver="3" data-url="https://tpemartin.github.io/github-website-example3/" data-color="default" data-size="small" data-count="false" style="display: none;"></div>
+ <script src="https://d.line-scdn.net/r/web/social-plugin/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
