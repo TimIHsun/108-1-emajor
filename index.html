@@ -360,7 +360,7 @@ $(document).ready(function () {
 
   form.addEventListener('submit', e => {
     e.preventDefault()
-    fetch(https://script.google.com/macros/s/AKfycby1go87N0DEu5AR7cBUxYPdT2oXF3ysPZb4H4bc9BrW59CREc8u/exec
+    fetch("https://script.google.com/macros/s/AKfycby1go87N0DEu5AR7cBUxYPdT2oXF3ysPZb4H4bc9BrW59CREc8u/exec"
 , { method: 'POST', body: new FormData(form)})
       .then(response => console.log('Success!', response))
       .catch(error => console.error('Error!', error.message))
