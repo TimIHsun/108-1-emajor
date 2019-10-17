@@ -350,6 +350,22 @@ $(document).ready(function () {
 <script src="https://d.line-scdn.net/r/web/social-plugin/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
 </center>
 <hr />
+<p><a href="https://script.google.com/macros/s/AKfycby1go87N0DEu5AR7cBUxYPdT2oXF3ysPZb4H4bc9BrW59CREc8u/exec" class="uri">https://script.google.com/macros/s/AKfycby1go87N0DEu5AR7cBUxYPdT2oXF3ysPZb4H4bc9BrW59CREc8u/exec</a></p>
+<form name="submit-to-google-sheet">
+<input name="email" type="email" placeholder="Email" required> <button type="submit">Send</button>
+</form>
+<script>
+  const scriptURL = '<SCRIPT URL>'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(https://script.google.com/macros/s/AKfycby1go87N0DEu5AR7cBUxYPdT2oXF3ysPZb4H4bc9BrW59CREc8u/exec
+, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
 
 <div id="id_footer" >
  <center><p>Copyright &copy; 2020   <a href="https://www.facebook.com/Emajortaiwanforu/" style="color:red">E.Major Taiwan </a>. All rights reserved.</p></center>
