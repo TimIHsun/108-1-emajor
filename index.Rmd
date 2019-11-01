@@ -43,6 +43,8 @@ https://script.google.com/macros/s/AKfycbyzK-PojQNOAyza7uMCDkOy9mHTubUAMGQxr8IN0
 <form name="submit-to-google-sheet">
   <input name="email" type="email" placeholder="Email" required>
   <button type="submit">Send</button>
+  <input name="name" required>
+  <button type="submit">Send</button>
 </form>
 
 <script>
