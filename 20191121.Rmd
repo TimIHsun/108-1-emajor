@@ -76,5 +76,3 @@ emajor_nodes0
 read_xml("http://opendataap2.e-land.gov.tw/resource/files/2019-11-21/beff7621e386abc10f7e339114848aca.xml") ->xmlnodes0
 ```
 
-
-
