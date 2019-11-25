@@ -1,9 +1,13 @@
 ---
 title: 北大黑客松
 ---
-
-<br>
-<center><font size="10" >北大黑客松 </font></center>
+```{css, echo=F}
+h1.title {
+    font-size: 38px;
+    /* align-content: center; */
+    text-align: center;
+}
+```
 ___
 
 <img src="https://www.opservices.com.br/wp-content/uploads/2017/01/Hackathon.png">

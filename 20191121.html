@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="邱奕勳" />
+
+
+<title>20191121</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/ionicons-2.0.1/css/ionicons.min.css" rel="stylesheet" />
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h2 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h3 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h4 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h5 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h6 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">2020 北大黑客松</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="intro.html">
+    <span class="fa fa-home"></span>
+     
+    競賽說明
+  </a>
+</li>
+<li>
+  <a href="about.html">
+    <span class="fa fa-info"></span>
+     
+    報名資訊
+  </a>
+</li>
+<li>
+  <a href="teamQuery.html">
+    <span class="ion ion-social-twitter"></span>
+     
+    徵詢隊友
+  </a>
+</li>
+<li>
+  <a href="reference.html">參考作品</a>
+</li>
+<li>
+  <a href="https://www.facebook.com/%E8%B3%87%E6%96%99%E7%A7%91%E5%AD%B8%E6%87%89%E7%94%A8%E5%89%B5%E6%96%B0%E9%BB%91%E5%AE%A2%E6%9D%BE%E7%AB%B6%E8%B3%BD-2329576390451183/?__tn__=k*F&amp;tn-str=k*F">臉書粉專</a>
+</li>
+<li>
+  <a href="awardList.html">歷屆得獎名單</a>
+</li>
+<li>
+  <a href="https://zh-tw.facebook.com/Emajortaiwanforu/">
+    <span class="fa fa-question fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">20191121</h1>
+<h4 class="author">邱奕勳</h4>
+<h4 class="date">2019/11/21</h4>
+
+</div>
+
+
+<pre class="r"><code>library(psych)
+library(clipr)</code></pre>
+<pre><code>## Welcome to clipr. See ?write_clip for advisories on writing to the clipboard in R.</code></pre>
+<pre class="r"><code>library(dplyr)</code></pre>
+<pre><code>## 
+## Attaching package: &#39;dplyr&#39;</code></pre>
+<pre><code>## The following objects are masked from &#39;package:stats&#39;:
+## 
+##     filter, lag</code></pre>
+<pre><code>## The following objects are masked from &#39;package:base&#39;:
+## 
+##     intersect, setdiff, setequal, union</code></pre>
+<pre class="r"><code>library(xml2)
+#library(rvest)</code></pre>
+<pre class="r"><code># 讀入html
+&quot;https://www.cakeresume.com/jean-pang&quot; %&gt;%
+  read_html() -&gt; nodes0</code></pre>
+<pre class="r"><code>nodes0 %&gt;% xml_find_all(
+  xpath=&#39;//*[@id=&quot;item&quot;]/div[6]/div/div[2]/div[2]&#39;
+) -&gt; nodes1</code></pre>
+<pre class="r"><code>nodes1 %&gt;% xml_text()</code></pre>
+<pre><code>## [1] &quot;講授逾1000位大專院校學生：簡報與懶人包設計課程  19.08.26 財政部國有財產署 南區 教育訓練 - 懶人包設計與製作 講師19.08.20 嘉義大學 學生會 - 簡報設計 講師19.08.01 財政部國有財產署 北區 教育訓練 - 懶人包設計與製作 講師19.05.31 屏東科技大學 企業管理所 簡報設計與實作 一日工作坊 - 講師19.05.09 衛生福利部 108年衛生教育工作坊 - 懶人包製作 講師19.04.27 屏東科技大學 職涯發展處 - 簡報設計與實作 一日工作坊 講師19.03.18 逢甲大學 領知中心 - 簡報設計 講師19.03.14 中原大學 原住民設計專班 設計概論講座 - 簡報設計 講師19.03.11 逢甲大學 圖書館 - 簡報設計 資訊邏輯力、設計與實作 一日工作坊 講師18.12.09 高雄醫學大學 心理系學會 - 懶人包設計進階 一日工作坊 講師18.12.06 元智大學 新世紀領袖培育計畫團 - 簡報設計與實作 講師 18.11.12 之道學習 高中自學生 - 簡報設計 講師18.10.13 屏東科技大學 職涯發展處 - 商務簡報應用 一日工作坊 講師18.10.06 屏東科技大學 職涯發展處 - 簡報設計與表達 一日工作坊 講師18.10.02 逢甲大學 圖書館 - 懶人包設計與行銷進階 一日工作坊 講師18.09.14 台北商業大學 職涯大使團隊 - 簡報設計 講師18.09.05 嘉義大學 學生會 - 簡報設計 講師 18.06.08 彰化女中 班聯會 - 簡報設計 講師 18.05.09 屏東大學 人際與溝通通識課 - 簡報設計 講師 \n18.05.03 長庚大學 醫學生聯合會 - 懶人包製作進階 - 講師 18.03.22 元智大學 新世紀領袖培育計畫團 - 簡報設計 講師 18.03.11 長庚大學 醫學生聯合會- 懶人包設計 講師 17.11.30 彰化師範大學 課外活動指導組 - 簡報設計與優化 講師 17.11.26 國立交通大學 創新創業社 - 簡報設計 講師 17.10.02 台灣科技大學 學生會 - 懶人包製作與設計 講師 \n17.09.30 中國醫藥大學 醫學系系學會 - 美感設計 講師 17.09.05 嘉義大學 學生會 - 美感設計 講師 &quot;</code></pre>
+<p>#看小孩</p>
+<pre class="r"><code>nodes1 %&gt;% xml_children()</code></pre>
+<pre><code>## {xml_nodeset (2)}
+## [1] &lt;h3&gt;&lt;b&gt;講授逾1000位大專院校學生：簡報與懶人包設計課程  &lt;/b&gt;&lt;/h3&gt;\n
+## [2] &lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt; ...</code></pre>
+<p>#選第一個小孩</p>
+<pre class="r"><code>nodes1 %&gt;% xml_child(1)</code></pre>
+<pre><code>## {html_node}
+## &lt;h3&gt;
+## [1] &lt;b&gt;講授逾1000位大專院校學生：簡報與懶人包設計課程  &lt;/b&gt;</code></pre>
+<pre class="r"><code>nodes1 %&gt;% xml_child(1) %&gt;% xml_children() #確定沒有小孩</code></pre>
+<pre><code>## {xml_nodeset (1)}
+## [1] &lt;b&gt;講授逾1000位大專院校學生：簡報與懶人包設計課程  &lt;/b&gt;</code></pre>
+<pre class="r"><code>nodes1 %&gt;% xml_child(1) %&gt;% xml_text() </code></pre>
+<pre><code>## [1] &quot;講授逾1000位大專院校學生：簡報與懶人包設計課程  &quot;</code></pre>
+<pre class="r"><code>nodes1 %&gt;% xml_child(2) %&gt;% xml_text()</code></pre>
+<pre><code>## [1] &quot;19.08.26 財政部國有財產署 南區 教育訓練 - 懶人包設計與製作 講師19.08.20 嘉義大學 學生會 - 簡報設計 講師19.08.01 財政部國有財產署 北區 教育訓練 - 懶人包設計與製作 講師19.05.31 屏東科技大學 企業管理所 簡報設計與實作 一日工作坊 - 講師19.05.09 衛生福利部 108年衛生教育工作坊 - 懶人包製作 講師19.04.27 屏東科技大學 職涯發展處 - 簡報設計與實作 一日工作坊 講師19.03.18 逢甲大學 領知中心 - 簡報設計 講師19.03.14 中原大學 原住民設計專班 設計概論講座 - 簡報設計 講師19.03.11 逢甲大學 圖書館 - 簡報設計 資訊邏輯力、設計與實作 一日工作坊 講師18.12.09 高雄醫學大學 心理系學會 - 懶人包設計進階 一日工作坊 講師18.12.06 元智大學 新世紀領袖培育計畫團 - 簡報設計與實作 講師 18.11.12 之道學習 高中自學生 - 簡報設計 講師18.10.13 屏東科技大學 職涯發展處 - 商務簡報應用 一日工作坊 講師18.10.06 屏東科技大學 職涯發展處 - 簡報設計與表達 一日工作坊 講師18.10.02 逢甲大學 圖書館 - 懶人包設計與行銷進階 一日工作坊 講師18.09.14 台北商業大學 職涯大使團隊 - 簡報設計 講師18.09.05 嘉義大學 學生會 - 簡報設計 講師 18.06.08 彰化女中 班聯會 - 簡報設計 講師 18.05.09 屏東大學 人際與溝通通識課 - 簡報設計 講師 \n18.05.03 長庚大學 醫學生聯合會 - 懶人包製作進階 - 講師 18.03.22 元智大學 新世紀領袖培育計畫團 - 簡報設計 講師 18.03.11 長庚大學 醫學生聯合會- 懶人包設計 講師 17.11.30 彰化師範大學 課外活動指導組 - 簡報設計與優化 講師 17.11.26 國立交通大學 創新創業社 - 簡報設計 講師 17.10.02 台灣科技大學 學生會 - 懶人包製作與設計 講師 \n17.09.30 中國醫藥大學 醫學系系學會 - 美感設計 講師 17.09.05 嘉義大學 學生會 - 美感設計 講師 &quot;</code></pre>
+<div id="emajor_-website-practice" class="section level2">
+<h2>emajor_ website practice</h2>
+<pre class="r"><code>&quot;https://bookdown.org/tpemartin/108-1-emajor/&quot; %&gt;% read_html() -&gt; emajor_nodes0</code></pre>
+<pre class="r"><code>emajor_nodes0 %&gt;% xml_find_all(xpath=&#39;//*[@id=&quot;課程說明&quot;]&#39;) -&gt; emajor_nodes1</code></pre>
+<pre class="r"><code>emajor_nodes1 %&gt;% xml_children()</code></pre>
+<pre><code>## {xml_nodeset (2)}
+## [1] &lt;h1&gt;課程說明&lt;/h1&gt;
+## [2] &lt;p&gt;本課程為自主學習，電子書的每個章節會說明要讀那些參考資料，接著會有練習題組來測驗同學的理解狀況。&lt;/p&gt;</code></pre>
+<pre class="r"><code>emajor_nodes1 %&gt;% xml_child(1) %&gt;% xml_text()</code></pre>
+<pre><code>## [1] &quot;課程說明&quot;</code></pre>
+<pre class="r"><code>emajor_nodes0</code></pre>
+<pre><code>## {html_document}
+## &lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;&quot; xml:lang=&quot;&quot;&gt;
+## [1] &lt;head&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset= ...
+## [2] &lt;body&gt;\n\n\n\n  &lt;div class=&quot;book without-animation with-summary font ...</code></pre>
+</div>
+<div id="xml-" class="section level2">
+<h2>xml 政府開放</h2>
+<pre class="r"><code>read_xml(&quot;http://opendataap2.e-land.gov.tw/resource/files/2019-11-21/beff7621e386abc10f7e339114848aca.xml&quot;) -&gt;xmlnodes0</code></pre>
+</div>
+
+<div class="footer" >
+ <center><p>Copyright &copy; 2020   <a href="https://www.facebook.com/Emajortaiwanforu/" style="color:red">E.Major Taiwan </a>. All rights reserved.</p></center>
+</div>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

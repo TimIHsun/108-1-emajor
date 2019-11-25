@@ -1,16 +1,17 @@
 ---
 title: "報名資訊"
 ---
-
-<br>
-<center>
-  <i class="fas fa-equals fa-1x"></i>
-  <font size="6" >報名資訊 </font>
-  <i class="fas fa-equals fa-1x"></i>
-</center>
+```{css, echo=F}
+h1.title {
+    font-size: 38px;
+    /* align-content: center; */
+    text-align: center;
+}
+```
 ___
 
-> 報名資格
+<font style="background: linear-gradient(transparent 50%, #ffff66 0%);
+    line-height: 1.3em"> 報名資格 </font>
 
   國立臺北大學在學學生。
   

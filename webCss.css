@@ -8,3 +8,28 @@ id_footer {
     /* 展開footer寬度 */
     width: 100%;
 }
+
+h1.title {
+    font-size: 38px;
+    /* align-content: center; */
+    text-align: center;
+}
+
+*{
+    padding:0; margin:0;
+}
+
+.highlight {
+    background: linear-gradient(transparent 50%, #ffff66 0%);
+    line-height: 1.3em;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}

@@ -1,8 +1,13 @@
 ---
 title: 參考資料
 ---
-<br>
-<center><font size="10" >參考資料 </font></p></center>
+```{css, echo=F}
+h1.title {
+    font-size: 38px;
+    /* align-content: center; */
+    text-align: center;
+}
+```
 ___
 
 

@@ -1,9 +1,13 @@
 ---
 title: 競賽說明
 ---
-
-<br>
-<center><font size="10" >競賽說明 </font></center>
+```{css, echo=F}
+h1.title {
+    font-size: 38px;
+    /* align-content: center; */
+    text-align: center;
+}
+```
 ___
 
 <center>
