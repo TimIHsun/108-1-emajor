@@ -26,4 +26,4 @@ output:
     highlight: textmate
     include:
       after_body: footer.html
-      css: webCss.css
+    css: webCss.css

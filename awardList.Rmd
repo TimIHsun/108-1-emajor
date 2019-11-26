@@ -1,6 +1,18 @@
 ---
 title: 得獎作品
 ---
+```{css, echo=F}
+.title {
+    font-size: 38px;
+    /* align-content: center; */
+    text-align: center;
+}
+```
+
+<span class="title">12345</span>
+</br>
+<h2 class="highlight"> 123 </h2>
+
 <br>
 <center><font size="10" > 2019得獎作品 </font></p></center>
 ___

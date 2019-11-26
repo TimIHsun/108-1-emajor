@@ -10,8 +10,7 @@ h1.title {
 ```
 ___
 
-<font style="background: linear-gradient(transparent 50%, #ffff66 0%);
-    line-height: 1.3em"> 報名資格 </font>
+<font class="highlight"> 報名資格 </font>
 
   國立臺北大學在學學生。
   

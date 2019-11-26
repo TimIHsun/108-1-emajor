@@ -1,15 +1,5 @@
-id_footer {
-    /* 設定footer的高度 */
-    height: 40px;
-    box-sizing: border-box;
-    /* 設定footer絕對位置在底部 */
-    position: absolute;
-    bottom: 0;
-    /* 展開footer寬度 */
-    width: 100%;
-}
 
-h1.title {
+.title {
     font-size: 38px;
     /* align-content: center; */
     text-align: center;
@@ -22,6 +12,7 @@ h1.title {
 .highlight {
     background: linear-gradient(transparent 50%, #ffff66 0%);
     line-height: 1.3em;
+    font-size: 30px;
 }
 
 .footer {
@@ -29,7 +20,7 @@ h1.title {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: red;
+  background-color: #336666;
   color: white;
   text-align: center;
 }
