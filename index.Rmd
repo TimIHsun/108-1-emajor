@@ -10,8 +10,6 @@ h1.title {
 ```
 ___
 
-<img src="https://www.opservices.com.br/wp-content/uploads/2017/01/Hackathon.png">
-
 ___
 
 <center><font size="10" color="brown" font face="Nanum Pen Script">Hello, There!</font></center>

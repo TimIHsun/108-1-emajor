@@ -10,10 +10,11 @@ h1.title {
 ```
 ___
 
+<div style="text-align: center">
 <font class="highlight"> 報名資格 </font>
 
   國立臺北大學在學學生。
-  
+
 ___
 
 <font class="highlight"> 團隊限制 </font>
@@ -25,6 +26,7 @@ ___
 
   108年1月7日至2月24日。 
 
+</div>
 ___
 <br>
 <center>
