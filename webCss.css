@@ -1,26 +1,46 @@
 
-.title {
+title {
     font-size: 38px;
     /* align-content: center; */
     text-align: center;
 }
 
 
+.paragraph{
+  font-size: 17px;
+}
 
 .highlight {
     background: linear-gradient(transparent 50%, #ffff66 0%);
     line-height: 1.3em;
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
 }
 
 .footer {
   width: 100%;
   height: 60px;
-  background-color: #336666;
-  color: white;
   text-align: center;
-  right: 0px;
+  bottom: 0px;
   left: 0px;
+  color: black;
+  font-size: 16px;
+  position: relative;
+  margin: 0px;
 }
 
+.divborder{
+  background-color: #FDFAEE ; padding: 12px; border-radius: 50px 20px;
+}
+
+.divborder2{
+  background-color: #FDFAEE ; padding: 12px; border-radius: 50px 20px; text-align: center;
+}
+  
+body{
+  border: 0px;
+  margin: 20px;
+  padding: 0px;
+  background-size: 100%;
+  background-image: url("asset/back1.png");
+}  

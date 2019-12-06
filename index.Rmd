@@ -3,14 +3,13 @@ title: 北大黑客松
 ---
 ```{css, echo=F}
 h1.title {
-    font-size: 38px;
-    /* align-content: center; */
+    font-size: 45px;
     text-align: center;
 }
 ```
 ___
 
-___
+__
 
 <center><font size="10" color="brown" font face="Nanum Pen Script">Hello, There!</font></center>
 

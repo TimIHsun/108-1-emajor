@@ -22,7 +22,7 @@ navbar:
       href: https://zh-tw.facebook.com/Emajortaiwanforu/
 output:
   html_document:
-    theme:  flatly
+    theme:  paper
     highlight: textmate
     include:
       after_body: footer.html
