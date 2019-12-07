@@ -41,6 +41,6 @@ body{
   border: 0px;
   margin: 20px;
   padding: 0px;
-  background-size: 100%;
-  background-image: url("asset/back1.png");
+  background-size: 100% auto;
+  background-image: url("asset/backgroundImage.png");
 }  
