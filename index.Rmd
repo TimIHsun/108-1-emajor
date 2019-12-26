@@ -3,19 +3,19 @@ title: 北大黑客松
 ---
 ```{css, echo=F}
 h1.title {
-    font-size: 45px;
+    font-size: 0px;
     text-align: center;
+    color: white
 }
 ```
 ___
-
+<center>
+<img src="asset/2020banner.jpg">
+<center>
 __
 
-<center><font size="10" color="brown" font face="Nanum Pen Script">Hello, There!</font></center>
-
 ___
 
-___
 
 
 
