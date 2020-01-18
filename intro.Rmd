@@ -10,9 +10,7 @@ h1.title {
 ```
 
 <br>
-<center>
-  <font size=38px >目的</font>
-</center>
+  <div class="title" >目的</div>
 
 
 <div class="divborder">
@@ -27,60 +25,29 @@ h1.title {
 ___
 
 <br>
-<center>
-  <font size= 38px >競賽方式</font>
-</center>
+  <div class="title" >競賽方式</div>
 
 
-<div class="divborder2">
+<div>
+<p>
+初賽收件報名
+<br>
 
-<font class="highlight">時間 </font>
-
-<p class="paragraph">
-108年3月16日（六），至3月17日（日）。
 </p>
-
-</br>
-
-<font class="highlight">地點 </font>
-
-<p class="paragraph">
-國立臺北大學創業創新中心。
+<p>
+評審審核選出6組決賽名單
 </p>
-
-</br>
-
-<font class="highlight">費用 </font>
-
-<p class="paragraph">
-免費，保證金500元/隊 (將於活動現場全額退回，無出席者恕不退還保證金)。
+<p>
+人氣投票
+<br>
+投票將納入決賽分數之10%
 </p>
-
-</br>
-
-<font class="highlight">費用繳交方式</font>
-
-<p class="paragraph">
-線上報名完成後於「收費期間」至「收費地點」繳交。 <br>
-收費期間：108/2/18 ~ 108/2/27，週一~週五，9:00 ~ 12:00，13:30 ~ 17:00。<br>
-收費地點：社會科學院3F 經濟學系辦公室<br>
-將於活動結束後全額退還，無出席者恕不退還保證金<br>
-報名統一採線上申報方式
+<p>
+決賽/頒獎
+<br>
+決賽參賽者實體展示成果，並接受提問。
+<br>
 </p>
-
-</br>
-
-<font class="highlight">現場設備</font>
-
-<p class="paragraph">
-提供餐飲、電源和無線網路。參賽者請依個人需求攜帶所需設備及相關物品， <br>
-如筆電、平板及個人睡袋寢具等。
-</p>
-
-</br>
-
-<font class="highlight">流程 </font>
-
 </div>
 
 

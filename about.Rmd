@@ -3,7 +3,7 @@ title: "報名/收件資訊"
 ---
 ```{css, echo=F}
 h1.title {
-    font-size: 38px;
+    font-size:57px;
     /* align-content: center; */
     text-align: center;
 }
