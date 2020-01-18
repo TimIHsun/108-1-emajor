@@ -4,14 +4,11 @@ navbar:
   title: "2020 北大黑客松"
   right:
     - text: "競賽說明"
-      icon: fa-home
       href: intro.html
-    - text: "報名資訊"
-      icon: fa-info
+    - text: "報名/收件資訊"
       href: about.html
-    - text: "徵詢隊友"  
-      icon: ion-social-twitter
-      href: teamQuery.html
+    - text: "投票"  
+      href: voting.html
     - text: "參考作品"
       href: reference.html 
     - text: "臉書粉專"

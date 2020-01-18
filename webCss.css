@@ -1,5 +1,5 @@
 
-title {
+.title {
     font-size: 38px;
     /* align-content: center; */
     text-align: center;
@@ -14,7 +14,6 @@ title {
     background: linear-gradient(transparent 50%, #ffff66 0%);
     line-height: 1.3em;
     font-size: 30px;
-    text-align: center;
 }
 
 .footer {
@@ -45,6 +44,7 @@ body{
   padding: 0;
   background-size: 100%;
   background-image: url("asset/backgroundImage2.png");
+  width: 100%;
 }  
 
 .container-fluid .main-container{

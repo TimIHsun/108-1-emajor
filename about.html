@@ -12,7 +12,7 @@
 
 
 
-<title>報名資訊</title>
+<title>報名/收件資訊</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -289,14 +289,14 @@ $(document).ready(function () {
   <a href="about.html">
     <span class="fa fa-info"></span>
      
-    報名資訊
+    報名/收件資訊
   </a>
 </li>
 <li>
-  <a href="teamQuery.html">
+  <a href="voting.html">
     <span class="ion ion-social-twitter"></span>
      
-    徵詢隊友
+    投票
   </a>
 </li>
 <li>
@@ -323,7 +323,7 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">報名資訊</h1>
+<h1 class="title toc-ignore">報名/收件資訊</h1>
 
 </div>
 
@@ -337,23 +337,26 @@ h1.title {
 </style>
 <hr />
 <div class="divborder2">
-<p><font class="highlight"> 報名資格 </font></p>
+<font class="highlight"> 報名資格 </font>
 <p class="paragraph">
 國立臺北大學在學學生。
 </p>
-<p><font class="highlight"> 團隊限制 </font></p>
+<p><br></p>
+<font class="highlight"> 初賽團隊限制 </font>
 <p class="paragraph">
-可跨年級、跨系組隊，每隊以2~4人為限，最多12隊，額滿為止。
+可跨年級、跨系組隊，每隊以2~5人為限，初賽隊伍數不限。
 </p>
-<p><font class="highlight"> 報名期間 </font></p>
+<p><br></p>
+<font class="highlight"> 報名期間/收件期間 </font>
 <p class="paragraph">
-108年1月7日至2月24日。
+109年2月27日至109年3月20日。
 </p>
 </div>
+<p><br></p>
 <hr />
 <br>
 <center>
-<i class="fas fa-equals fa-1x"></i> <font size="6" >報名流程 </font> <i class="fas fa-equals fa-1x"></i>
+<font size="6" >報名/收件流程 </font>
 </center>
 <hr />
 <center>
@@ -381,9 +384,9 @@ h1.title {
 </center>
 <hr />
 <br>
-<center>
-<i class="fas fa-equals fa-1x"></i> <font size="6" >報名方式 </font> <i class="fas fa-equals fa-1x"></i>
-</center>
+<div class="title">
+報名/收件方式
+</div>
 <hr />
 <center>
 報名統一採線上申報方式，欲參賽之隊伍請至線上表單登錄報名訊息。 <br> (建議使用Chrome瀏覽器，並先login您的gmail帳號。）
@@ -396,54 +399,6 @@ h1.title {
 </blockquote>
 </button>
 </center>
-<hr />
-<div class="section level1">
-<h1>表單</h1>
-
-<form name="submit-to-google-sheet">
-  <div class="form-group">
-    <label for="exampleFormControlInput1">Email address</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" name="email2">
-  </div>
-  <div class="form-group">
-    <label for="exampleFormControlSelect1">Example select</label>
-    <select class="form-control" id="exampleFormControlSelect1" name="option">
-      <option>1</option>
-      <option>2</option>
-      <option>3</option>
-      <option>4</option>
-      <option>5</option>
-    </select>
-  </div>
-  <div class="form-group">
-    <label for="exampleFormControlSelect2">Example multiple select</label>
-    <select multiple class="form-control" id="exampleFormControlSelect2" name="multipleoption">
-      <option>1</option>
-      <option>2</option>
-      <option>3</option>
-      <option>4</option>
-      <option>5</option>
-    </select>
-  </div>
-  <div class="form-group">
-    <label for="exampleFormControlTextarea1">Example textarea</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="text"></textarea>
-  </div>
-   <button type="submit">Send</button>
-</form>
-
-<script>
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbyzK-PojQNOAyza7uMCDkOy9mHTubUAMGQxr8IN04APThz5bwU/exec'
-  const form = document.forms['submit-to-google-sheet']
-
-  form.addEventListener('submit', e => {
-    e.preventDefault()
-    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-      .then(response => console.log('Success!', response))
-      .catch(error => console.error('Error!', error.message))
-  })
-</script>
-</div>
 
 
 <hr>

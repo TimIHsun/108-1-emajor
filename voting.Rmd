@@ -1,5 +1,5 @@
 ---
-title: 徵詢隊友
+title: 投票
 ---
 ```{css, echo=F}
 h1.title {
