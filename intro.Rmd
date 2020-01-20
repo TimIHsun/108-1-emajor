@@ -100,6 +100,9 @@ ___
 ___
 
 <div class="title"> 決賽規則 </div>
+
+___
+
 <div class="divborder">
 <center><font class="highlight"> 報告時間 </font></center>
 <p class="paragraph">
@@ -114,4 +117,20 @@ ___
 </center>
 </div>
 
+___
+
 <div class="title"> 競賽獎勵 </div>
+
+___
+
+<div class="divborder2">
+<font class="highlight"> 第一名(1名) </font>
+<p class="paragraph">
+獎金新台幣3萬元。
+</p>
+
+<font class="highlight"> 第二名(1名) </font>
+<p class="paragraph">
+獎金新台幣2萬元。
+</p>
+</div>
