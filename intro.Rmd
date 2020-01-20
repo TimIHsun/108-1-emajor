@@ -3,16 +3,13 @@ title: 目的
 ---
 ```{css, echo=F}
 h1.title {
-    font-size: 0;
+    font-size: 35px;
     /* align-content: center; */
     text-align: center;
 }
 ```
 
----
-<br><br><br>
-
-<div class="title"> 目的 </div>
+___
 
 <div class="divborder">
 
@@ -91,7 +88,6 @@ ___
 <p class="paragraph">
   109年4月11日
 </p>
-<br>
 
 <font class="highlight"> 決賽地點 </font>
 <p class="paragraph">
@@ -110,7 +106,6 @@ ___
 各組報告時間為8至15分鐘，工作人員於報告時間至7分鐘時舉牌提醒參賽隊伍。
 報告完需接受評審提問。
 </p>
-<br>
 
 <center><font class="highlight"> 報告內容 </font>
 <p class="paragraph">

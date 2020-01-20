@@ -3,7 +3,7 @@ title: 投票
 ---
 ```{css, echo=F}
 h1.title {
-    font-size: 57px;
+    font-size: 35px;
     /* align-content: center; */
     text-align: center;
 }

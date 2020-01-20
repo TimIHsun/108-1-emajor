@@ -1,6 +1,6 @@
 
 .title {
-    font-size: 57px;
+    font-size: 35px;
     /* align-content: center; */
     text-align: center;
     color: black;
@@ -8,13 +8,13 @@
 
 
 .paragraph{
-  font-size: 28px;
+  font-size: 17px;
 }
 
 .highlight {
     background: linear-gradient(transparent 50%, #ffff66 0%);
     line-height: 1.3em;
-    font-size: 45px;
+    font-size: 32px;
     text-align: center;
 }
 
@@ -30,7 +30,7 @@
   margin: 0px;
   padding: 0;
   border: 0;
-  font-size: 25.5px;
+  font-size: 17px;
 }
 
 .divborder{
@@ -121,7 +121,7 @@ body{
 #timelineL{
   float: left;
   width:60%;
-  padding-left: 100px;
+  padding-left: 40px;
 }
 
 #timelineR{
