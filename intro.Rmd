@@ -1,16 +1,15 @@
 ---
-title: 競賽說明
+title: 目的
 ---
 ```{css, echo=F}
 h1.title {
-    font-size: 0px;
+    font-size: 57px;
     /* align-content: center; */
     text-align: center;
 }
 ```
 
-<br>
-  <div class="title" >目的</div>
+---
 
 
 <div class="divborder">
@@ -27,8 +26,9 @@ ___
 <br>
   <div class="title" >競賽方式</div>
 
+___
 
-<div>
+<div id="timelineL">
 <p>
 初賽收件報名
 <br>
@@ -52,3 +52,27 @@ ___
 
 
 
+<div id="timelineR" class="vtl">
+<div class="ewrap">
+<div class="event">
+<strong class="text">初賽</strong>
+</div>
+</div>
+<div class="ewrap">
+<div class="event">
+<strong class="text">決選名單公告</strong>
+</div>
+</div>
+<div class="ewrap">
+<div class="event">
+<strong class="text">人氣投票</strong>
+</div>
+</div>
+<div class="ewrap">
+<div class="event">
+<strong class="text">決賽/頒獎</strong>
+</div>
+</div>
+</div>
+
+<div style="clear:both;"></div>

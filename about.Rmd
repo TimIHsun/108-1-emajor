@@ -17,7 +17,7 @@ ___
 </p>
 <br>
 
-<font class="highlight"> 初賽團隊限制 </font>
+<font class="highlight"> 團隊限制 </font>
 <p class="paragraph">
   可跨年級、跨系組隊，每隊以2~5人為限，初賽隊伍數不限。 
 </p>

@@ -1,23 +1,25 @@
 ---
-title: 得獎作品
+title: 2020得獎作品
 ---
 ```{css, echo=F}
 .title {
-    font-size: 38px;
+    font-size: 57px;
     /* align-content: center; */
     text-align: center;
 }
 ```
 
-<span class="title">12345</span>
-</br>
-<h2 class="highlight"> 123 </h2>
+
+
 
 <br>
-<center><font size="10" > 2019得獎作品 </font></p></center>
+
 ___
 
+<div class="title" > 2019得獎作品 </div>
 
+
+<div style="font-size= 150%">
 | 獎項  |  隊伍 |  成員 | 
 |---|---|---|
 | 冠軍 |10617383 |  資管碩二 盧致嘉 |  
@@ -34,5 +36,7 @@ ___
 |   |   |  統計四 藍雍淵  |   
 |   |   |  統計四 蔡岱融 |   
 |   |   | 資工四 王均捷  |
+
+</div>
 
 ___
