@@ -10,7 +10,9 @@ h1.title {
 ```
 
 
-<div style="color: #D01503 ; font-size: 35px ; text-align: center" > 可能是你喔...但先報名吧。</div>
+<div style="color: #F31702 ; font-size: 20px ; text-align: center" > 
+可能是你...但先<a href="">報名</a>吧。
+</div>
 
 <br>
 
@@ -36,7 +38,15 @@ ___
 |   |   |  統計四 藍雍淵  |   
 |   |   |  統計四 蔡岱融 |   
 |   |   | 資工四 王均捷  |
-
+| 佳作 |Teach4Life |  金融三 賴昱銘 |  
+|   |   |  電機三 游仲恩  |   
+|   |   |  電機三 吳羿佳 |   
+|   |   | 會計三 謝沁妤  |
+|-|-|-|
+| 佳作 |E.Major| 經碩一 陳柏銘   |  
+|   |   |  經碩二 陳宜榛  |   
+|   |   |  經濟二 邱奕勳 |   
+|   |   | 經濟一 張翊宣  |
 </div>
 
 ___

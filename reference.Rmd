@@ -1,5 +1,5 @@
 ---
-title: 參考資料
+title: 參考範例
 ---
 ```{css, echo=F}
 h1.title {
@@ -12,12 +12,14 @@ ___
 
 
 <br>
-* [政府開放資料](https://data.gov.tw/) 
+<li> [政府開放資料](https://data.gov.tw/) </li>
+<li> [新北市政府資料開放平臺](http://data.ntpc.gov.tw/)</li>
+
+<div class="title"> 參考作品 </div>
+<li> [PM2.5全台即時概況](https://env.healthinfo.tw/air/)</li>
+<li> [Google 台灣災害應變資訊平臺](https://env.healthinfo.tw/air/)</li>
+<li> [台灣水庫即時水情](https://water.taiwanstat.com/)</li>
+<li> [溫室氣體清冊：台灣](http://muyueh.com/30/co2/show.html)</li>
 
 
-
-<marquee > 
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/National_Taipei_University_logo.svg/1200px-National_Taipei_University_logo.svg.png" alt="1" width="20%"/> 
-  <img src="https://yt3.ggpht.com/a/AGF-l792fl-cOrupwYnaSTQ3uG6gG6KxuBww2dR6hw=s900-c-k-c0xffffffff-no-rj-mo" alt="2" width="20%" />  
-</marquee>
 

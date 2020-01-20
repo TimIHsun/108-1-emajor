@@ -43,7 +43,7 @@ ___
 <i class="fas fa-angle-down"></i>
 
 <div class="signup">
-  線上填寫組員相關資料，並上傳作品相關文件
+  線上填寫組員相關資料，<br>並上傳作品相關文件
 </div>
   <i class="fas fa-angle-down"></i>
 
@@ -59,7 +59,7 @@ ___
 ___    
 
 <br>
-<div class="title">報名/收件方式 </div>
+<div class="title">報名表單 </div>
   
 ___
 <center>
