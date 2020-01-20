@@ -79,3 +79,42 @@ ___
 </div>
 
 <div style="clear:both;"></div>
+
+___
+<div class="title"> 決賽時間/地點 </div>
+___
+
+<div class="divborder2">
+<font class="highlight"> 決賽時間 </font>
+<p class="paragraph">
+  109年4月11日
+</p>
+<br>
+
+<font class="highlight"> 決賽地點 </font>
+<p class="paragraph">
+  國立臺北大學創業創新中心(圖書館後方B1) 
+</p>
+<br>
+
+</div>
+
+___
+
+<div class="title"> 決賽規則 </div>
+<div class="divborder">
+<center><font class="highlight"> 報告時間 </font></center>
+<p class="paragraph">
+各組報告時間為8至15分鐘，工作人員於報告時間至7分鐘時舉牌提醒參賽隊伍。
+報告完需接受評審提問。
+</p>
+<br>
+
+<center><font class="highlight"> 報告內容 </font>
+<p class="paragraph">
+報告內容須包含實體作品展現。
+</p>
+</center>
+</div>
+
+<div class="title"> 競賽獎勵 </div>

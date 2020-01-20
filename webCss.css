@@ -8,13 +8,14 @@
 
 
 .paragraph{
-  font-size: 25.5px;
+  font-size: 28px;
 }
 
 .highlight {
     background: linear-gradient(transparent 50%, #ffff66 0%);
     line-height: 1.3em;
     font-size: 45px;
+    text-align: center;
 }
 
 .footer {

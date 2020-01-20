@@ -33,9 +33,7 @@ ___
 ___
 
 <br>
-<center>
-  <font size="6" >報名/收件流程 </font>
-</center>
+<div class="title">報名/收件流程 </div>
 
 ___
 
@@ -48,17 +46,14 @@ ___
 
 <center>
   <div style="background-color: #FDFAEE ;width:350px;padding:10px;border:3px red dashed;margin:30px;">
-  線上填寫資料
+  線上填寫組員相關資料，並上傳作品相關文件
   </div>
   <i class="fas fa-angle-down"></i>
 </center>
 
 <center>
   <div style="background-color: #FDFAEE ;width:350px;padding:10px;border:3px red dashed;margin:30px;">
- 至經濟系辦繳交保證金 
- 收費期間：108/2/18 ~ 108/2/27，
- 週一 ~ 週五，9:00 ~ 12:00，13:30 ~ 17:00。
- 
+  收取確認信
   </div>
   <i class="fas fa-angle-down"></i>
 </center>
