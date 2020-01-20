@@ -3,14 +3,16 @@ title: 目的
 ---
 ```{css, echo=F}
 h1.title {
-    font-size: 57px;
+    font-size: 0;
     /* align-content: center; */
     text-align: center;
 }
 ```
 
 ---
+<br><br><br>
 
+<div class="title"> 目的 </div>
 
 <div class="divborder">
 
