@@ -120,6 +120,7 @@ body{
 #timelineL{
   float: left;
   width:60%;
+  padding-left: 100px;
 }
 
 #timelineR{

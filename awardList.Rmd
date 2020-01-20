@@ -1,8 +1,8 @@
 ---
-title: 2020得獎作品
+title: 2020得獎名單
 ---
 ```{css, echo=F}
-.title {
+h1.title {
     font-size: 57px;
     /* align-content: center; */
     text-align: center;
@@ -10,13 +10,13 @@ title: 2020得獎作品
 ```
 
 
-
+<div style="color: red ; font-size: 35px ; text-align: center" > 有可能是你喔...應該吧。</div>
 
 <br>
 
 ___
 
-<div class="title" > 2019得獎作品 </div>
+<div class="title" > 2019得獎名單 </div>
 
 
 <div style="font-size= 150%">
