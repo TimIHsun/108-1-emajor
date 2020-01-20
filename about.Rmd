@@ -36,32 +36,25 @@ ___
 <div class="title">報名/收件流程 </div>
 
 ___
-
 <center>
-  <div style="background-color: #FDFAEE ;width:350px;padding:10px;border:3px red dashed;margin:30px;">
-  進入報名表單
-  </div>
-  <i class="fas fa-angle-down"></i>
-</center>
+<div class="signup">
+進入報名表單
+</div>
+<i class="fas fa-angle-down"></i>
 
-<center>
-  <div style="background-color: #FDFAEE ;width:350px;padding:10px;border:3px red dashed;margin:30px;">
+<div class="signup">
   線上填寫組員相關資料，並上傳作品相關文件
-  </div>
+</div>
   <i class="fas fa-angle-down"></i>
-</center>
 
-<center>
-  <div style="background-color: #FDFAEE ;width:350px;padding:10px;border:3px red dashed;margin:30px;">
+<div class="signup">
   收取確認信
-  </div>
-  <i class="fas fa-angle-down"></i>
-</center>
+</div>
+<i class="fas fa-angle-down"></i>
 
-<center>
-  <div style="background-color: #FDFAEE ;width:350px;padding:10px;border:3px red dashed;margin:30px;">
-  完成報名程序
-  </div>
+<div class="signup">
+完成報名程序
+</div>
 </center>
 ___    
 
@@ -75,7 +68,7 @@ ___
 </center>
 <br>
 <center>
-<button type="button" style="width:240px;height:80px;" onclick="location.href='https://econhackathon.ntpu.edu.tw/timeline.html'">>
+<button type="button" style="width:240px;height:80px;" onclick="location.href=''">>
 <img src="https://tw.promo.yahoo.com/2017/store/0310/images/button.png" >
 </button>
 </center>
