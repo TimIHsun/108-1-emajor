@@ -1,5 +1,5 @@
 ---
-title: 資料科學應用創新競賽
+title: 資料科學創新應用競賽
 ---
 ```{css, echo=F}
 h1.title {
