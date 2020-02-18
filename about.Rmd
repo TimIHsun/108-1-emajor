@@ -31,6 +31,21 @@ ___
 <br>
 
 ___
+<div class="title"> 初賽/報名繳交影片 </div>
+___
+
+<div class="divborder">
+<center><font class="highlight"> 初賽以影片評分 </font></center></br>
+<div style="padding-left: 10% ;padding-right: 10% ;font-size: 17px">
+1. 作品自行上傳Youtube，設定為公開。
+2. 影片畫質至少720p。
+3. 影片總時長不得超過5分鐘。
+4. Youtube說明部分須註明「團隊名稱、作品名稱、作品簡介、資料來源」。
+</div>
+
+</div>
+
+___
 
 <br>
 <div class="title">報名/收件流程 </div>
@@ -43,12 +58,14 @@ ___
 <i class="fas fa-angle-down"></i>
 
 <div class="signup">
-  線上填寫組員相關資料，<br>並上傳作品相關文件
+  線上填寫組員相關資料，<br>填寫作品影片網址。
 </div>
   <i class="fas fa-angle-down"></i>
 
 <div class="signup">
-  收取確認信
+  提交表單前請將此表單印出，</br>
+  由全數組員簽名後，</br>
+  交至經濟系辦才算完成報名及作品繳交。
 </div>
 <i class="fas fa-angle-down"></i>
 
@@ -59,7 +76,7 @@ ___
 ___    
 
 <br>
-<div class="title">報名表單 </div>
+<div class="title">報名/收件表單 </div>
   
 ___
 <center>
@@ -68,8 +85,8 @@ ___
 </center>
 <br>
 <center>
-<button type="button" style="width:240px;height:80px;" onclick="location.href=''">>
-<img src="https://tw.promo.yahoo.com/2017/store/0310/images/button.png" >
+<button type="button" style="width:240px;height:60px;color: black; background-color: #FDFAEE" onclick="location.href='https://docs.google.com/forms/d/1kPlkpmM-LNcrOzSpMsgKXeciNsxNg8Sm8-BgDpmGQUI/edit'">>
+立即報名
 </button>
 </center>
 
