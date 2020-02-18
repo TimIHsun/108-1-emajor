@@ -27,7 +27,7 @@ ___
 
 ___
 
-<center><img src="asset/timeline.png" style="width:65% ;height:65%"></center>
+<center><img src="asset/timeline.png"></center>
 
 
 

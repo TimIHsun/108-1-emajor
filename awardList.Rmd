@@ -11,7 +11,7 @@ h1.title {
 
 
 <div style="color: #F31702 ; font-size: 20px ; text-align: center" > 
-可能是你...但先<a href="">報名</a>吧。
+可能是你...但先<a href="about.html">報名</a>吧。
 </div>
 
 <br>

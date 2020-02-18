@@ -4,17 +4,19 @@ title: 參考範例
 
 ```{css, echo=F}
 h1.title {
-    font-size: 38px;
+    font-size: 0px;
     /* align-content: center; */
     text-align: center;
 }
 ```
-___
 
 
+<div class="title"> 參考資料 </div>
 <br>
 <li> [政府開放資料](https://data.gov.tw/) </li>
 <li> [新北市政府資料開放平臺](http://data.ntpc.gov.tw/)</li>
+
+___
 
 <div class="title"> 參考作品 </div>
 <li> [PM2.5全台即時概況](https://env.healthinfo.tw/air/)</li>
