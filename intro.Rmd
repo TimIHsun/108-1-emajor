@@ -31,7 +31,7 @@ ___
 
 
 
-
+<!--
 <div id="timelineL">
 <p>
 <font size="6">初賽/報名/收件</font>
@@ -87,7 +87,7 @@ ___
 </div>
 
 <div style="clear:both;"></div> 
-
+-->
 
 ___
 <div class="title"> 決賽時間/地點 </div>
