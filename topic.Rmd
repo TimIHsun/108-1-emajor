@@ -25,7 +25,7 @@ ___
 </p>
 <font class="highlight"> 規則 </font></br></br>
 <p style="font-size: 20px">
-  參賽成果須以政府開放資料為主並符合三項應用子題之一。
+  參賽成果須以政府開放資料為主並至少符合三項應用子題之一。
 </p>
 </div>
 
