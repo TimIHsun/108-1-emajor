@@ -95,8 +95,9 @@ ___
 
 <div class="divborder2">
 <font class="highlight"> 決賽時間 </font>
-<p class="paragraph">
-  109年4月11日
+<br><br>
+<p style="font-size: 20px; color: #e3242b ">
+  因應報名/收件延長，決賽時間將有所調整，請隨時關注！
 </p>
 
 <font class="highlight"> 決賽地點 </font>
